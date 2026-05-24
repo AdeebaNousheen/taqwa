@@ -26,121 +26,152 @@ It helps Muslims stay connected with Allah through Salah, Quran, Dhikr, Islamic 
 
 ## 🏠 Home Page
 
-<img width="100%" src="./images/Taqwa.png" />
+<img width="100%" src="Taqwa.png" />
 
 ---
 
 ## 🔐 Login Page
 
-<img width="100%" src="./images/login.png" />
+<img width="100%" src="login.png" />
 
 ---
 
 ## 👤 User Profile
 
-<img width="100%" src="./images/dashboard.png" />
+<img width="100%" src="dashboard.png" />
 
 ---
 
 ## 🕌 Prayer Times + Dhikr + Salah Streak
 
-<img width="100%" src="./images/dikhr.png" />
+<img width="100%" src="dikhr.png" />
 
 ---
 
 ## 🤖 Islamic AI Assistant
 
-<img width="100%" src="./images/AI assistant.png" />
+<img width="100%" src="AI assistant.png" />
 
 ---
 
 ## 📖 Full Quran Reader
 
-<img width="100%" src="./images/quran reader.png" />
+<img width="100%" src="quran reader.png" />
 
 ---
 
 ## 😊 Mood → Quran Guidance
 
-<img width="100%" src="./images/mood.png" />
+<img width="100%" src="mood.png" />
 
 ---
 
 ## 🌙 Islamic Calendar
 
-<img width="100%" src="./images/calendar.png" />
+<img width="100%" src="calendar.png" />
 
-## ☀️Mode -> light/Dark Mode
+---
 
-<img width="100%" src="./images/mode.png"/>
+## ☀️ Dark / Light Mode
+
+<img width="100%" src="mode.png" />
 
 ---
 
 # ✨ Features Explained
 
----
-
 ## 🔐 Firebase Authentication
 
-Users can:
-- Create accounts
-- Login securely
-- Logout safely
+Taqwa uses Firebase Authentication for secure login and signup functionality.
 
-Firebase Authentication is used for user management.
+### Features:
+- User Registration
+- Secure Login
+- Logout System
+- Firebase Authentication Integration
+- Protected Dashboard Access
+
+Users can create accounts and securely access their personalized Islamic dashboard.
 
 ---
 
-## 🕌 Prayer Times
+## 🕌 Real-Time Prayer Times
 
-The app fetches real-time prayer timings using the Aladhan API.
+The application fetches real-time Salah timings using the Aladhan Prayer API.
 
-Features:
+### Included Prayer Timings:
 - Fajr
 - Dhuhr
 - Asr
 - Maghrib
 - Isha
-- Prayer notifications
+
+### Additional Features:
+- Clean UI cards
+- Real-time timings
+- Prayer notification support
+- Islamic-focused design
+
+This helps users stay connected with Salah throughout the day.
 
 ---
 
 ## 📿 Dhikr Counter
 
-Users can:
-- Count dhikr
-- Reset counter
-- Save daily dhikr
-- Store progress using localStorage
+The Dhikr Counter helps users perform daily remembrance of Allah.
+
+### Features:
+- Increment Counter
+- Decrement Counter
+- Reset Counter
+- Save Daily Dhikr
+- localStorage Data Saving
+
+Users can track tasbeeh and save their daily dhikr progress.
 
 ---
 
 ## 🔥 Salah Streak Tracker
 
-Track daily prayer consistency.
+This feature motivates users to maintain consistency in prayers.
 
-Features:
-- Prayer completion buttons
-- Daily streak counter
+### Features:
+- Daily prayer tracking
+- Completion buttons for each Salah
+- Automatic streak counting
 - Motivation system
+- Prayer consistency monitoring
+
+When all prayers are completed, the streak automatically increases.
 
 ---
 
 ## 🤖 Islamic AI Assistant
 
-Islamic assistant answers questions related to:
-- Islam
-- Salah
-- Quran
-- Allah
-- Prophet Muhammad ﷺ
-- 5 Pillars of Islam
+The Islamic AI Assistant provides answers to basic Islamic questions.
+
+### Example Questions:
+- What are the 5 pillars of Islam?
+- What is Salah?
+- What is Quran?
+- Who is Allah?
+- Who is Prophet Muhammad ﷺ?
+
+### Features:
+- Instant responses
+- Islamic educational guidance
+- Beginner-friendly interface
+- Smart keyword-based responses
+
+The assistant is designed to provide simple and meaningful Islamic guidance.
 
 ---
 
 ## 📖 Full Quran Reader
 
-Includes beautiful Quran audio recitations:
+The Quran Reader allows users to listen to beautiful Quran recitations directly inside the app.
+
+### Included Surahs:
 - Surah Al-Fatiha
 - Surah Yaseen
 - Surah Ar-Rahman
@@ -149,37 +180,72 @@ Includes beautiful Quran audio recitations:
 - Surah Al-Falaq
 - Surah An-Nas
 
+### Features:
+- Audio playback
+- Responsive audio player
+- Beautiful Islamic UI
+- Easy listening experience
+
 ---
 
 ## 😊 Mood → Quran Guidance
 
-Provides Islamic motivation depending on mood:
+This feature provides Islamic motivation and reminders based on user emotions.
+
+### Supported Moods:
 - Sad
 - Happy
 - Lonely
 - Angry
 - Stressed
 
+### Guidance Includes:
+- Quran reminders
+- Islamic motivation
+- Dhikr suggestions
+- Positive emotional support
+
+This helps users emotionally reconnect with Islam and spirituality.
+
 ---
 
 ## 🌙 Islamic Calendar
 
-Shows:
+The Islamic Calendar section displays both Gregorian and Hijri dates.
+
+### Features:
 - English Date
 - Hijri Date
-- Interactive popup calendar
+- Popup Calendar Modal
+- Beautiful Islamic Design
+
+Users can easily track important Islamic dates.
+
+---
+
+## ☀️ Dark / Light Mode
+
+Users can switch between Dark Mode and Light Mode for a better experience.
+
+### Features:
+- Smooth theme switching
+- Modern UI design
+- Comfortable viewing experience
+- Responsive styling
+
+The application maintains a clean modern Islamic aesthetic in both themes.
 
 ---
 
 # 🛠️ Tech Stack
 
-| Technology | Usage |
+| Technology | Purpose |
 |---|---|
 | Next.js | Frontend Framework |
 | React.js | UI Development |
 | Firebase | Authentication |
 | Tailwind CSS | Styling |
-| Aladhan API | Prayer Times |
+| Aladhan API | Prayer Timings API |
 
 ---
 
