@@ -32,7 +32,7 @@ It helps Muslims stay connected with Allah through Salah, Quran, Dhikr, Islamic 
 
 ## 🔐 Login Page
 
-<img width="100%" src="login.png" />
+<img width="80%" src="login.png" />
 
 ---
 
@@ -68,7 +68,7 @@ It helps Muslims stay connected with Allah through Salah, Quran, Dhikr, Islamic 
 
 ## 🌙 Islamic Calendar
 
-<img width="100%" src="calendar.png" />
+<img width="80%" src="calendar.png" />
 
 ---
 
