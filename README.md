@@ -1,36 +1,281 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📿 Taqwa — Islamic Productivity Web App
 
-## Getting Started
+Taqwa is a modern Islamic productivity platform built with Next.js and Firebase.  
+It helps Muslims stay connected with Allah through Salah, Quran, Dhikr, Islamic AI guidance and productivity tools 🌙
 
-First, run the development server:
+---
+
+# 🌟 Features
+
+✨ Firebase Authentication  
+✨ Islamic AI Assistant  
+✨ Real-time Prayer Times  
+✨ Dhikr Counter  
+✨ Salah Streak Tracker  
+✨ Quran Audio Player  
+✨ Islamic Calendar  
+✨ Mood-based Islamic Guidance  
+✨ Dark / Light Mode  
+✨ User Profile Upload  
+
+---
+
+# 🖼️ Screenshots
+
+---
+
+## 🏠 Home Page
+
+<img width="100%" src="./images/home.png" />
+
+---
+
+## 🔐 Login Page
+
+<img width="100%" src="./images/login.png" />
+
+---
+
+## 👤 User Profile
+
+<img width="100%" src="./images/profile.png" />
+
+---
+
+## 🕌 Prayer Times + Dhikr + Salah Streak
+
+<img width="100%" src="./images/dashboard.png" />
+
+---
+
+## 🤖 Islamic AI Assistant
+
+<img width="100%" src="./images/ai.png" />
+
+---
+
+## 📖 Full Quran Reader
+
+<img width="100%" src="./images/quran.png" />
+
+---
+
+## 😊 Mood → Quran Guidance
+
+<img width="100%" src="./images/mood.png" />
+
+---
+
+## 🌙 Islamic Calendar
+
+<img width="100%" src="./images/calendar.png" />
+
+---
+
+# ✨ Features Explained
+
+---
+
+## 🔐 Firebase Authentication
+
+Users can:
+- Create accounts
+- Login securely
+- Logout safely
+
+Firebase Authentication is used for user management.
+
+---
+
+## 🕌 Prayer Times
+
+The app fetches real-time prayer timings using the Aladhan API.
+
+Features:
+- Fajr
+- Dhuhr
+- Asr
+- Maghrib
+- Isha
+- Prayer notifications
+
+---
+
+## 📿 Dhikr Counter
+
+Users can:
+- Count dhikr
+- Reset counter
+- Save daily dhikr
+- Store progress using localStorage
+
+---
+
+## 🔥 Salah Streak Tracker
+
+Track daily prayer consistency.
+
+Features:
+- Prayer completion buttons
+- Daily streak counter
+- Motivation system
+
+---
+
+## 🤖 Islamic AI Assistant
+
+Islamic assistant answers questions related to:
+- Islam
+- Salah
+- Quran
+- Allah
+- Prophet Muhammad ﷺ
+- 5 Pillars of Islam
+
+---
+
+## 📖 Full Quran Reader
+
+Includes beautiful Quran audio recitations:
+- Surah Al-Fatiha
+- Surah Yaseen
+- Surah Ar-Rahman
+- Surah Al-Mulk
+- Surah Al-Ikhlas
+- Surah Al-Falaq
+- Surah An-Nas
+
+---
+
+## 😊 Mood → Quran Guidance
+
+Provides Islamic motivation depending on mood:
+- Sad
+- Happy
+- Lonely
+- Angry
+- Stressed
+
+---
+
+## 🌙 Islamic Calendar
+
+Shows:
+- English Date
+- Hijri Date
+- Interactive popup calendar
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| Next.js | Frontend Framework |
+| React.js | UI Development |
+| Firebase | Authentication |
+| Tailwind CSS | Styling |
+| Aladhan API | Prayer Times |
+
+---
+
+# 🚀 Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/taqwa.git
+```
+
+Move into project:
+
+```bash
+cd taqwa
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run project:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🔐 Firebase Setup
 
-To learn more about Next.js, take a look at the following resources:
+Create Firebase project and add config inside:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+firebase.js
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Example:
 
-## Deploy on Vercel
+```javascript
+import { initializeApp } from "firebase/app";
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+};
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+const app = initializeApp(firebaseConfig);
+
+export default app;
+```
+
+---
+
+# 📂 Project Structure
+
+```bash
+app/
+ ├── dashboard/
+ │    └── page.jsx
+ ├── login.jsx
+ ├── page.tsx
+ ├── globals.css
+ └── layout.tsx
+```
+
+---
+
+# 🌍 Future Improvements
+
+- Real AI integration
+- Quran translations
+- Hadith section
+- Ramadan Mode
+- Daily Islamic quotes
+- Cloud database storage
+- Multi-language support
+
+---
+
+# 👩‍💻 Developer
+
+### Adeeba Nousheen 🌙
+
+Built with faith, focus and modern technology 🤍
+
+---
+
+# 🌙 Islamic Quote
+
+> “Indeed, with hardship comes ease.”
+> — Quran 94:6
+
+---
