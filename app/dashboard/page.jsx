@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { signOut } from "firebase/auth";
-import { auth } from "../../firebase";
+import { auth } from "../../firebase.js";
 import { useRouter } from "next/navigation";
 
 export default function Dashboard() {
@@ -144,48 +144,203 @@ export default function Dashboard() {
   };
 
   // =========================
-  // AI ASSISTANT
-  // =========================
-  const handleAI = () => {
+// AI ASSISTANT
+// =========================
+const handleAI = () => {
 
-    const q = question.toLowerCase();
+  const q = question.toLowerCase();
 
-    if (q.includes("allah")) {
+  // 5 PILLARS
+  if (
+    q.includes("5 pillars") ||
+    q.includes("pillars of islam")
+  ) {
 
-      setAnswer(
-        "Allah is Ar-Rahman and Ar-Raheem 🤍"
-      );
-    }
+    setAnswer(
+      "🌙 The 5 Pillars of Islam are:\n\n1️⃣ Shahadah\n2️⃣ Salah\n3️⃣ Zakat\n4️⃣ Sawm (Fasting)\n5️⃣ Hajj 🤍"
+    );
 
-    else if (q.includes("salah")) {
+  }
 
-      setAnswer(
-        "Salah brings peace and discipline 🌙"
-      );
-    }
+  // ISLAM
+  else if (q.includes("islam")) {
 
-    else if (q.includes("quran")) {
+    setAnswer(
+      "🤍 Islam means submission to Allah and living life according to His guidance."
+    );
 
-      setAnswer(
-        "The Quran is guidance for humanity 📖"
-      );
-    }
+  }
 
-    else if (q.includes("prophet")) {
+  // ALLAH
+  else if (q.includes("allah")) {
 
-      setAnswer(
-        "Prophet Muhammad ﷺ is the final messenger of Allah 🤍"
-      );
-    }
+    setAnswer(
+      "🤍 Allah is Ar-Rahman (Most Merciful) and Ar-Raheem (Most Compassionate)."
+    );
 
-    else {
+  }
 
-      setAnswer(
-        "Islamic AI Assistant is learning daily 🚀"
-      );
-    }
-  };
+  // SALAH
+  else if (
+    q.includes("salah") ||
+    q.includes("prayer")
+  ) {
 
+    setAnswer(
+      "🕌 Salah brings peace, discipline and closeness to Allah 🌙"
+    );
+
+  }
+
+  // QURAN
+  else if (
+    q.includes("quran") ||
+    q.includes("surah")
+  ) {
+
+    setAnswer(
+      "📖 The Quran is the complete guidance for humanity revealed by Allah."
+    );
+
+  }
+
+  // PROPHET
+  else if (
+    q.includes("prophet") ||
+    q.includes("muhammad")
+  ) {
+
+    setAnswer(
+      "🤍 Prophet Muhammad ﷺ is the final messenger of Allah."
+    );
+
+  }
+
+  // FASTING
+  else if (
+    q.includes("fasting") ||
+    q.includes("roza") ||
+    q.includes("ramadan")
+  ) {
+
+    setAnswer(
+      "🌙 Fasting in Ramadan teaches patience, discipline and gratitude."
+    );
+
+  }
+
+  // ZAKAT
+  else if (q.includes("zakat")) {
+
+    setAnswer(
+      "💰 Zakat is charity given to help the needy and purify wealth."
+    );
+
+  }
+
+  // HAJJ
+  else if (q.includes("hajj")) {
+
+    setAnswer(
+      "🕋 Hajj is the sacred pilgrimage to Makkah performed once in a lifetime if able."
+    );
+
+  }
+
+  // DHIKR
+  else if (
+    q.includes("dhikr") ||
+    q.includes("zikr")
+  ) {
+
+    setAnswer(
+      "📿 Dhikr means remembering Allah through phrases like SubhanAllah, Alhamdulillah and Allahu Akbar."
+    );
+
+  }
+
+  // SABR
+  else if (
+    q.includes("sabr") ||
+    q.includes("patience")
+  ) {
+
+    setAnswer(
+      "🤍 Allah loves those who practice patience and trust Him during hardships."
+    );
+
+  }
+
+  // DUA
+  else if (
+    q.includes("dua") ||
+    q.includes("pray for me")
+  ) {
+
+    setAnswer(
+      "🤲 Never stop making dua. Allah listens to every sincere prayer."
+    );
+
+  }
+
+  // SAD
+  else if (
+    q.includes("sad") ||
+    q.includes("depressed")
+  ) {
+
+    setAnswer(
+      "🤍 Indeed, with hardship comes ease.\n\n📖 Surah Ash-Sharh 94:6"
+    );
+
+  }
+
+  // ANGER
+  else if (
+    q.includes("angry") ||
+    q.includes("anger")
+  ) {
+
+    setAnswer(
+      "🌙 Control anger, stay silent and remember Allah."
+    );
+
+  }
+
+  // SUCCESS
+  else if (
+    q.includes("success") ||
+    q.includes("productive")
+  ) {
+
+    setAnswer(
+      "🚀 Success comes with discipline, dua and trust in Allah."
+    );
+
+  }
+
+  // JANNAH
+  else if (
+    q.includes("jannah") ||
+    q.includes("paradise")
+  ) {
+
+    setAnswer(
+      "🌴 Jannah is the eternal paradise prepared for the righteous believers."
+    );
+
+  }
+
+  // DEFAULT
+  else {
+
+    setAnswer(
+      "🤖 Islamic AI Assistant is learning daily.\n\nTry asking about Salah, Quran, Allah, Dhikr, Ramadan or Islamic guidance 🌙"
+    );
+
+  }
+
+};
   // =========================
   // MOOD GUIDANCE
   // =========================
