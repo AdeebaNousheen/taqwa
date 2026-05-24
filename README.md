@@ -26,7 +26,7 @@ It helps Muslims stay connected with Allah through Salah, Quran, Dhikr, Islamic 
 
 ## 🏠 Home Page
 
-<img width="100%" src="./images/home.png" />
+<img width="100%" src="./images/Taqwa.png" />
 
 ---
 
@@ -38,25 +38,25 @@ It helps Muslims stay connected with Allah through Salah, Quran, Dhikr, Islamic 
 
 ## 👤 User Profile
 
-<img width="100%" src="./images/profile.png" />
+<img width="100%" src="./images/dashboard.png" />
 
 ---
 
 ## 🕌 Prayer Times + Dhikr + Salah Streak
 
-<img width="100%" src="./images/dashboard.png" />
+<img width="100%" src="./images/dikhr.png" />
 
 ---
 
 ## 🤖 Islamic AI Assistant
 
-<img width="100%" src="./images/ai.png" />
+<img width="100%" src="./images/AI assistant.png" />
 
 ---
 
 ## 📖 Full Quran Reader
 
-<img width="100%" src="./images/quran.png" />
+<img width="100%" src="./images/quran reader.png" />
 
 ---
 
@@ -69,6 +69,10 @@ It helps Muslims stay connected with Allah through Salah, Quran, Dhikr, Islamic 
 ## 🌙 Islamic Calendar
 
 <img width="100%" src="./images/calendar.png" />
+
+## ☀️Mode -> light/Dark Mode
+
+<img width="100%" src="./images/mode.png"/>
 
 ---
 
